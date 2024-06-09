@@ -1,0 +1,84 @@
+
+
+body{
+    background-color: rgba(70,104,123,255);
+    font-family: Inter, sans-serif;
+}
+
+
+#overall-container{
+    display:grid;
+    height: 90vh;
+    width:  100vw;
+
+    gap: 0px;
+    background-color: lightgray;
+
+    grid-template-columns: repeat(40, 2.5%);
+    grid-template-rows: repeat(40, 2.5%) ;
+}
+
+
+.container-sidebar{
+    background-color: rgba(70,104,123,255) !important;
+    width:100%;
+    height: 100%;
+
+    grid-area: 1 / 1 / 41 / 6;
+}
+
+.flex-account-bottom{
+    display:flex;
+    height:5rem;
+    width:100%;
+
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+
+
+.dashboard{
+    background-color: #f5f7fa;
+    grid-area: 1 / 6 / 41 / 41;
+
+    display:grid;
+    gap: 0px;
+
+    grid-template-columns: repeat(40, 2.5%);
+    grid-template-rows: repeat(40, 2.5%) ;
+
+}
+
+
+.dashboard-item{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #4D4D4D;
+}
+
+.dashboard-item-2{
+    
+
+    background-color: red;
+
+}
+
+
+.dashboard-content-pane{
+    background-color:white;
+    box-shadow: 1px 1px 10px #4D4D4D;
+
+    grid-area: 28 / 1 / 41 / 41;
+}
+
+
+
+
+
+
+
+
