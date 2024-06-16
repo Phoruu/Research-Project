@@ -8,7 +8,7 @@ body{
 
 #overall-container{
     display:grid;
-    height: 90vh;
+    height: 100vh;
     width:  100vw;
 
     gap: 0px;
@@ -38,6 +38,8 @@ body{
 
 
 
+/*   DASHBOARD   */
+
 .dashboard{
     background-color: #f5f7fa;
     grid-area: 1 / 6 / 41 / 41;
@@ -50,6 +52,11 @@ body{
 
 }
 
+.dashboard-title{
+    grid-area: 2 / 2 / 12 / 12;
+    font-size:2rem;
+    font-weight:750;
+}
 
 .dashboard-item{
     display:flex;
@@ -60,9 +67,9 @@ body{
     box-shadow: 1px 1px 10px #4D4D4D;
 }
 
+
 .dashboard-item-2{
     
-
     background-color: red;
 
 }
@@ -76,7 +83,11 @@ body{
 }
 
 
-
+.account-sticky{
+    padding-bottom: 15px;
+    padding-left: 15px;
+    width: 15vw;
+}
 
 
 
